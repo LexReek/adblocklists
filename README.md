@@ -1,1 +1,1 @@
-Filter lists for adBlockS
+Filter lists for adBlocks
