@@ -1,2 +1,1 @@
-# adblocklists
-Filter lists for adBlock
+Filter lists for adBlockS
