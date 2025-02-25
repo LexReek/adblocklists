@@ -1,0 +1,107 @@
+! Title: Resource abuse filters
+! Description: Blocks the use of your device's resources without your permission.
+*$csp=worker-src 'none',domain=123moviesgo.nl|123movieshub.asia|123movieshub.cx|7tors.com|bmovie123.me|bmoviego.me|bmovies123.me|btstors.com|cmovieshd.nl|fbmovies.org|fmoviesgo.me|gomovie123.me|gomovies123.me|idope.tv|seventorrents.cc|skytorrents.co|skytorrents.me|stream247.me|watch-free.co|watchfreemovies.tv|xmovies8.nl
+*$csp=worker-src 'none',domain=a-o.ninja|alltube.tv|biter.tv|byter.tv|centrum-dramy.pl|hentai-online.pl|lewd.ninja|love-drama.pl|milujivareni.cz|tokyodrift.ga|subswiki.com|vidfile.net|ya3ale.com
+*$csp=worker-src 'none',domain=estream.to|flashx.cc|flashx.co|streamango.com|vidoza.net|vidto.me|vidto.se|vidtudu.com
+*$csp=worker-src 'none',domain=kinokongo.cc
+*$csp=worker-src 'none',domain=megapastes.com|peliculas-mp4.com
+*$csp=worker-src 'none',domain=povwideo.cc|powvideo.cc|povw1deo.com|povwideo.net|powvideo.net
+*?proxy=$script
+.cf^*.wasm$third-party
+.info^$script,third-party,domain=oload.tv|openload.co|streamango.com|streamcherry.com
+.space^*.wasm$third-party
+/cn.wasm
+/helper.wasm
+123telugu.com,netiap.com##+js(abort-on-property-read.js, _0x7bc7)
+cloudtime.to,nowvideo.sx,sickrage.ca,tomadivx.org,videoplayer2.xyz,wholecloud.net##+js(abort-on-property-read.js, WebAssembly)
+csgoconfigs.com##+js(abort-current-inline-script.js, m, CH.Anonymous)
+descargas2020.com##+js(abort-current-inline-script.js, atob, _0x)
+djs.sk,mladipodnikatelia.sk##+js(abort-on-property-read.js, miner)
+howucan.gr##+js(abort-on-property-read.js, miner)
+hqq.tv,hqq.watch##+js(abort-on-property-read.js,  mscript)
+nxload.com##+js(abort-on-property-read.js, miner)
+onplay.tv##+js(abort-on-property-read.js, Nimiq)
+shrink-service.it##+js(abort-on-property-read.js, WebAssembly)
+sleeptimer.org##+js(abort-on-property-read.js, WebAssembly)
+tasma.ru##+js(abort-on-property-write.js, decodeURIComponent)
+tomadivx.tv##+js(abort-on-property-read.js, WebAssembly)
+tubettajat.net##+js(abort-on-property-read.js, miner)
+vidzi.tv##+js(abort-on-property-write.js, decodeURIComponent)
+||185.165.169.108^$websocket
+||2giga.link^*hive$script
+||300mbfilms.co^$csp=worker-src 'none';
+||adfreetv.ch^$csp=child-src 'none';frame-src *;worker-src 'none';
+||aleinvest.xyz^$third-party
+||alemoney.xyz^$third-party
+||bigspeeds.com^$csp=worker-src 'none';
+||cdnfile.xyz^$third-party
+||cinemafacil.com^$csp=worker-src 'none'
+||cloudcoins.co^$third-party
+||cloudfront.net/mmfb2.html
+||cndhit.xyz^$third-party
+||coinhive-manager.com^$third-party
+||coinhive-proxy.party^$third-party
+||crypto-coins.club^$third-party
+||csgocpu.com^$third-party
+||darking01.tk^$third-party
+||darking02.tk^$third-party
+||darking03.tk^$third-party
+||darking04.tk^$third-party
+||darking05.tk^$third-party
+||darking06.tk^$third-party
+||darking07.tk^$third-party
+||darking08.tk^$third-party
+||darking09.tk^$third-party
+||ddmix.net^$csp=child-src 'none';frame-src *;worker-src 'none';
+||deepc.cc^$third-party
+||dekoder.ws^$csp=worker-src 'none';
+||edgeno.de^$script,third-party,domain=~edgemesh.com
+||extratorrent.cd^$csp=child-src 'none';frame-src *;worker-src 'none';
+||freecontent.*^
+||gofile.io^$csp=child-src 'none';frame-src *;worker-src 'none';
+||hatevery.info^$third-party
+||hostingcloud.*^
+||hq-porns.com^$csp=child-src 'none';frame-src *;worker-src 'none';
+||ianimes.co^$csp=worker-src 'none';
+||info^$script,third-party,domain=oload.info
+||jshosting.*^
+||kickass.cd^$csp=child-src 'none';frame-src *;worker-src 'none';
+||listat.biz^
+||lmodr.biz^
+||mataharirama.xyz^$third-party
+||megabanners.cf^$third-party
+||megabanners.cf^$websocket
+||minecrunch.co^$third-party
+||monero-miner.net^$third-party
+||movie4k.is^$csp=worker-src 'none';
+||myfeed4u.net^$csp=child-src 'none';frame-src *;worker-src 'none';
+||now.sh/*.wasm$third-party
+||onlinereserchstatistics.online^$third-party
+||piratebay.click^$csp=worker-src 'none'
+||podrltid.info^$third-party
+||reactor.cc^$csp=worker-src 'none'
+||reactor.cc^*.wasm
+||reasedoper.pw^$third-party
+||reservedoffers.club^$csp=child-src 'none';frame-src *;worker-src 'none';
+||sbhmn-miner.com^$third-party
+||secumine.net^$third-party
+||severita-service.ru^$csp=worker-src 'none'
+||siteverification.online^$third-party
+||siteverification.site^$third-party
+||skyback.ru^$csp=child-src 'none';frame-src *;worker-src 'none';
+||stat0808.info^
+||static-02.flu.cc^$third-party
+||static-net.nut.cc^$third-party
+||subloader.cf^$third-party
+||theappguruz.com/vendor/composer/installed.js$script
+||theappguruz.com^$csp=child-src 'none';frame-src 'self' *;worker-src 'none';
+||thepiratebay.cr^$csp=child-src 'none';frame-src *;worker-src 'none';
+||tubetitties.com/worker.js
+||upgraderservices.cf^
+||vidfile.net/*.wasm
+||vidzi.si^$csp=worker-src 'none';
+||vzhjnorkudcxbiy.com^
+||wallpoper.com^$csp=worker-src 'none'
+||web.clod.pw^$third-party
+||whathyx.com^
+||wty46.com^
