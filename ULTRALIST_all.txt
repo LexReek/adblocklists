@@ -1,6 +1,6 @@
-! Title: 🛑 Ultralist Domains
+! Title: 🛑 Ultralist
 ! Description: It is a comprehensive and multi-purpose list to block ads, tracking, malware, scams, phishing, coin miners, abusive behavior, and other online threats. Also contains IP blacklist, Unbreak list (to unbreak sites broken as a result of 3rd-party filter lists) and Whitelist (trusted domains and components). Recommended for use as a supplemental list in uBlock Origin.
-! Homepage: https://gitlab.com/testa-rossa/adblock_filter_lists
+! Homepage: https://github.com/LexReek/adblocklists
 ! Author: Lex Reek (aka Testarossa)
 ! ╔══════════════════════════════════════════════╗
 ! ║ NO SUPPORT, NO FREQUENT UPDATES, NO WARRANTY.║
