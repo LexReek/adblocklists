@@ -1,0 +1,53 @@
+! Block these APIs to harden the privacy & security of your web browser. Some browsers support disabling these APIs (like Firefox via about:config), but it's unfortunately breaks  some websites. Chromium browsers do not natively support disabling it. Blocking these APIs with uBlock Origin allows the user to have control on a per-site and allows blocking in Chromium browsers.
+
+! Block SVG
+.svg^$important
+
+! Block WebGL
+*##+js(prevent-canvas, /webgl/)
+
+! Block WebGPU
+*##+js(prevent-canvas, /webgpu/)
+
+! Block WebRTC
+*##+js(nowebrtc)
+
+! Block Beacon
+*##+js(set, navigator.sendBeacon, trueFunc)
+
+! Block Page Visibility (level 1)
+*##+js(aeld, pagehide)
+*##+js(aeld, visibilitychange)
+
+! Block Page Visibility (level 2)
+*##+js(set, document.hasFocus, trueFunc)
+*##+js(set, document.hidden, false)
+
+! Block Page Visibility (level 3 / breakage)
+*##+js(aeld, blur)
+*##+js(aeld, focus)
+*##+js(aeld, lostpointercapture)
+*##+js(aeld, mouseleave)
+*##+js(aeld, mouseout)
+
+! Block third party fonts (the Yokoffing list for adblock is better)
+*$font,third-party
+
+! Enable GPC partially (can increase fingerprinting)
+*##+js(set, navigator.globalPrivacyControl, true)
+
+! Enable SVG partially (can increase fingerprinting)
+*##+js(set, navigator.doNotTrack, 1)
+
+! Block API Canvas
+##+js(prevent-canvas)
+
+! Partially prevents your IP address from being verified (if it's a static IP). Replace the zeros with your IP address. If your ISP uses a dynamic IP address, you'll have to change it several times a day.
+*##+js(rmnt, #text, 000.000.000.000)
+
+! Partially prevents filters used in adblock from being detected
+@@||*s_a_f_e..overflow*
+@@||s_a_f_e..0verflow*
+@@||*/1.gif?v=*
+
+! Font: https://github.com/celenityy/BadBlock/tree/pages/hardened
