@@ -1,2 +1,3 @@
-# adBlocklists
-Filter lists for adblock
+# adBlock lists
+Filter lists for adblocks.
+Recommended: uBLock Origin
