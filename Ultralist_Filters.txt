@@ -1,7 +1,7 @@
 ! Title: 🚫 IDEAlist - Ultralist Filters
 ! Description: It is a comprehensive and multi-purpose filters list to block ads, tracking, malware, scams, phishing, coin miners, abusive behavior, and other online threats. Recommended for use as a supplemental list in uBlock Origin.
-! Homepage: https://github.com/LexReek/adblocklists
-! Author: Leo Reek VI (aka Testa Rossa)
+! Homepage: https://github.com/LexReek/adBlock_lists
+! Author: Lex Reek (aka Testarossa)
 ! ╔══════════════════════════════════════════════╗
 ! ║ NO SUPPORT, NO FREQUENT UPDATES, NO WARRANTY.║
 ! ╚══════════════════════════════════════════════╝
