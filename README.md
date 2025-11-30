@@ -1,3 +1,12 @@
-# adBlock lists
+# ADBLOCK LISTS
 Filter lists for adblocks.
-Recommended: uBLock Origin
+
+Recommended to use with uBLock Origin
+
+
+
+The [HOSTile - Ultralist Domains](https://raw.githubusercontent.com/LexReek/adblock_lists/refs/heads/main/Ultralisk_Domanis.txt) includes the lists 01, 02, 04, 06 and 08.
+
+The [IDEAlist - Ultralist Filters](https://raw.githubusercontent.com/LexReek/adblock_lists/refs/heads/main/Ultralist_Filters.txt) includes the lists 03, 05, 07 and 09.
+
+Check out the uBlock Origin setup guide and recommendations for the best adblock lists [HERE](https://github.com/LexReek/PRIVATE-NAVIGATION-GUIDE).
